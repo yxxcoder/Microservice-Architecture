@@ -14,7 +14,6 @@
 
     <properties>
         <dubbo.version>2.6.5</dubbo.version>
-        <log4j2.version>2.11.1</log4j2.version>
     </properties>
 
     <modules>
@@ -41,16 +40,6 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-api</artifactId>
-                <version>${log4j2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-core</artifactId>
-                <version>${log4j2.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
