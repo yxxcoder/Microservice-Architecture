@@ -8,6 +8,7 @@ public interface DemoService {
 
     /**
      * 提供者和消费者共用的接口
+     *
      * @param name
      * @return
      */
