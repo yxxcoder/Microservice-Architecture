@@ -31,15 +31,10 @@
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
-                <artifactId>dubbo-dependencies-bom</artifactId>
+                <artifactId>dubbo-bom</artifactId>
                 <version>${dubbo.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
